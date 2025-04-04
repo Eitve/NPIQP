@@ -1,0 +1,47 @@
+.create-quiz-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  
+  background: linear-gradient(45deg, #ff0080, #f80) border-box;
+  border-radius: 30px;
+  padding: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-quiz-btn:hover {
+  opacity: 0.9;
+}
+
+
+.create-quiz-btn .pen-icon,
+.create-quiz-btn .button-text {
+
+  background: #d0a898;
+  border-radius: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+
+.pen-icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+  font-family: 'Font Awesome 6 Free-Solid'
+}
+
+
+.button-text {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
